@@ -14,13 +14,15 @@ const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('db.json')
 const obyte = require('obyte'); // obyte
+const http = require('http');
 // Connect to mainnet official node 'wss://obyte.org/bb'
 const client = new obyte.Client();
 const db = low(adapter)
 db.defaults({ users: [], count: 0 }).write()
 dclient.login(config.token);
-// const validationUtils = require('byteballcore/validation_utils.js');
-
+setInterval(() => {
+  http.get(`http://obyte-attest.glitch.me`);
+}, 250000);
 dclient.on('ready', () => {
   console.error('Discord ready');
 });
