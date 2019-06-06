@@ -10,6 +10,7 @@ Add config.json file with following content
 }
 ```
 
-Now delete node_modules and run `npm install`
-Now `node .`
+- Now to get node_modules and run `npm install`
+- Then `node .`
+
 Change pairing code in index.js according to your requirement
