@@ -9,7 +9,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "discord.js": "^11.5.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "headless-obyte": "git+https://github.com/byteball/headless-obyte.git",
     "http": "0.0.0",
     "local-json-storage": "^1.0.1",
